@@ -10,9 +10,10 @@ body {
 
 .container {
   height: 100vh;
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  height: 100vh;
 }
 
 .box-1 {
