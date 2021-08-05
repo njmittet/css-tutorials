@@ -12,14 +12,6 @@ header {
   background-color: #282c34;
 }
 
-.content-wrapper {
-  max-width: 80%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -27,14 +19,16 @@ header {
   height: 60px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  min-width: 400px;
+.center-content-80 {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.navigation-element {
-  color: white;
+nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 350px;
 }
 
 .brand {
@@ -42,15 +36,6 @@ nav {
   font-size: larger;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box-1 {
-  width: 120px;
-  height: 120px;
-  background-color: skyblue;
-  border: 2px solid black;
+.navigation-element {
+  color: white;
 }
